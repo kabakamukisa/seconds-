@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 10px;
+    color: rgb(79, 167, 162);
+
+}
+.logo{
+    font-size: 40px;
+    color: rgb(255, 123, 248);
+}
+.display1{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(10.jpg);
+
+    
+}
+.display1 h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 70px;
+    color: rgb(184, 172, 12);
+    
+}
+.display1 p{
+    width: 300px;
+    margin-top: 200px;
+    color: blanchedalmond;
+
+}
+.display2{
+    display: flex;
+    align-items: center;
+    background-color: rgb(10, 9, 9);
+}
+.image1{
+    width: 700px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin: 80px;
+
+}
+.about{
+    color: aliceblue;
+    margin: 100px;
+
+}
+.about p{
+    margin:20px 0px;
+}
+.learn{
+    height: 30px;
+    width: 120px;
+    border-color: white;
+    border-style: 1px;
+    border-radius: 20%;   
+    cursor: pointer;
+}
+.display3{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: rgb(107, 56, 56);
+
+}
+.our-menu{
+    margin-top: 100px;
+    margin-left: 80px; 
+}
+.our-menu h1{
+    margin-bottom: 10px;
+}
+.our-menu button{
+    height: 30px;
+    width: 100px;
+    border-color: white;
+    border-style: 1px;
+    border-radius: 20%;   
+    cursor: pointer;
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;    
+}
+.menu1{
+    width: 400;
+    height: 700px;
+    margin: 20px;
+}
+.menu2{
+    width: 400;
+    height: 700px;
+    margin: 20px;
+
+}
+.menu3{
+    width: 400;
+    height: 700px;
+    margin: 20px;
+
+}
+.menu p{
+    margin: 20px;
+    color: bisque;
+}
+.menu img{
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.p-only{
+    background-color: rgb(159, 196, 165);
+    font-size: 70px;
+    padding: 100PX 50PX;
+    height: 400px;
+    color: bisque; 
+}
+.display4{
+    align-items: center;
+    background-color: rgba(96, 122, 78, 0.664);
+}
+.display4 img{
+    width: 670px;
+    height: 400px;
+    object-fit: cover;
+
+}
+.display5{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: rgb(56, 56, 43);
+}
+.bottom{
+    margin: 50px;
+}
+.bottom h2{
+    margin-bottom: 20px;
+    color: rgb(22, 20, 16);
+    
+}
+.display5 button{
+    height: 30px;
+    width: 150px;
+    border-color: rgb(13, 73, 48);
+    border-style: 1px;
+    border-radius: 20%;   
+    cursor: pointer;
+    color: rgb(85, 9, 9);
+
+}
+.socials{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(224, 167, 24);
+}
+.display5 address{
+    margin: 50px;
+}
+.footer{
+    padding: 100px 550px;  
+    background-color: black;
+    color: bisque;
+}
+
+
+
+
+
+
+
+
+
